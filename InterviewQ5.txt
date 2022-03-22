@@ -1,0 +1,17 @@
+Q5)What is the use of a Set object in JavaScript?
+
+Ans-
+
+The JavaScript Set object is used to store the elements with unique values. The values can be of any type i.e. whether primitive values or object references. For example:
+
+function display()  
+{  
+var set = new Set();    
+set.add("jQuery");    
+set.add("AngularJS");    
+set.add("Bootstrap");    
+for (let elements of set) {    
+ document.writeln(elements+"<br>");    
+}     
+}  
+display();

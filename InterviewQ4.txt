@@ -1,0 +1,13 @@
+Q4)What is the use of a TypedArray object in JavaScript?
+
+Ans-
+
+The JavaScript TypedArray object illustrates an array like a view of an underlying binary data buffer. There is any number of different global properties, whose values are TypedArray constructors for specific element types.
+
+function display()  
+{  
+var arr1= [1,2,3,4,5,6,7,8,9,10];     
+       arr1.copyWithin(2) ;   
+       document.write(arr1);    
+}  
+display();  
